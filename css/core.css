@@ -22,34 +22,28 @@ body {
 	
 	color: rgb(51, 51, 51);
 }
-h1 {
+h1, h2, h3 {
 	margin-top: 0;
 	margin-bottom: 16px;
 	padding: 0;
-	font-size: 38px;
 	font-weight: 300;
 	line-height: 100%;
 	color: rgb(0, 132, 190);
 	letter-spacing: -1px;
 	display: block;
 }
-h2 {
-	margin-top: 0;
-	margin-bottom: 16px;
-	padding: 0;
-	font-size: 26px;
-	font-weight: 300;
-	line-height: 100%;
-	color: rgb(0, 132, 190);
-	letter-spacing: -1px;
-	display: block;
-}
+h1 { font-size: 38px; }
+h2 { font-size: 26px; }
+h3 { font-size: 20px; }
 p {
 	margin-left: 0;
 	margin-right: 0;
 	margin-top: 0;
 	margin-bottom: 16px;
 	padding: 0;
+}
+img {
+	max-width: 100%;
 }
 form {
 	margin-bottom: 48px;
@@ -277,15 +271,17 @@ a:active {
 	padding-top: 5%;
 	padding-bottom: 5%;
 }
-.separator {
+hr {
 	width: 100%;
 	height: 1px;
 	margin-left: 0;
 	margin-right: 0;
 	margin-top: 16px;
-	margin-bottom: 40px;
+	margin-bottom: 32px;
 	padding: 0;
+	color: rgb(0, 132, 150);
 	background-color: rgb(0, 132, 150);
+	border-color: rgb(0, 132, 150);
 }
 .footer {
 	width: 100%;
